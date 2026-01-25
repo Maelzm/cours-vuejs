@@ -1,4 +1,10 @@
+---
+marp: true
+---
+
 # Programmation frontend avec VueJS
+
+---
 
 ## Enseignant
 
@@ -10,6 +16,8 @@
   - VueJS
   - PHP (Smarty)
   - DB (Postgresql et MySQL)
+
+---
 
 ## Objectif
 
