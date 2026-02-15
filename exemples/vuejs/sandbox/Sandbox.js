@@ -1,9 +1,16 @@
-export default {
+const OptionsSandbox = {
   components: {},
   props: [],
   emits: [],
   data() { return {}},
   computed: {},
   methods: {},
-  template: `<p>Sandbox</p>`
+  template: ``
 }
+
+const CompositionSandbox = {
+  setup() {},
+  template: ``
+}
+
+export { CompositionSandbox, OptionsSandbox }

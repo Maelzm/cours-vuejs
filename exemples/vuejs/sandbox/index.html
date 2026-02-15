@@ -15,12 +15,15 @@
 
     <h1>VueJS Sandbox for Options API</h1>
     <div id="app">
-      <sandbox></sandbox>
+      <composition-sandbox></composition-sandbox>
+      <options-sandbox></options-sandbox>
     </div>
 
     <script type="module">
-      import Sandbox from "./Sandbox.js";
-      Vue.createApp({ components: { Sandbox } }).mount("#app");
+      import { CompositionSandbox, OptionsSandbox } from "./Sandbox.js";
+      Vue.createApp({
+        components: { CompositionSandbox, OptionsSandbox },
+      }).mount("#app");
     </script>
   </body>
 </html>
