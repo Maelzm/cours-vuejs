@@ -98,3 +98,26 @@ export default {
   `,
 };
 ```
+
+---
+
+## Utilisation d'un store - Setup API
+
+```javascript
+import { computed } from "vue";
+import { useCounterStore } from "../stores/counter";
+
+export default {
+  setup() {
+    const counterStore = useCounterStore();
+    const doubleCount = computed(() => counterStore.count * 2);
+  },
+  template: `
+  <div>
+    <p>Counted: {{ counterStore.count }} times</p>
+    <p>Double count: {{ doubleCount }}</p>
+    <button @click="counterStore.increment">Increment</button>
+  </div>
+  `,
+};
+```
