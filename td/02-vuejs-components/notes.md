@@ -32,4 +32,11 @@ Créer un nouveau composant `Pokedex`. Ce composant doit charger le fichier `pok
 ## Exercice 3 - Généralisation
 
 Adapter les composants Carte et Pokedex pour pouvoir afficher, au choix, les données de `pokemons.json` et celles de `plants.json`.  
-**Règle** : Ne pas changer les noms des champs dans les fichiers `.json`. Il faut passer par le code pour les adaptations/mapping de noms de champs.
+Faire la sélection avec une checkbox.
+**Règle** : Ne pas changer les noms des champs dans les fichiers `.json`. Il faut passer par le code pour adaptater/mapper de noms de champs.
+
+---
+
+## Exercice 4 - Recherche
+
+Ajouter un champ de texte qui permet de filtrer la liste. Ne garder que les éléments de la liste dont le nom contient le texte saisi.
