@@ -49,3 +49,24 @@ input {
 }
 </style>
 ```
+
+---
+
+## Structure d'un .vue (suite)
+
+```vue
+<script setup>
+const props = defineProps(['name']);
+const emits = defineEmits(['onClick']);
+
+console.log(props.name)
+function buttonClick() {
+  emits('onClick');
+}
+</script>
+
+<template>
+<button @click="$emit('onClick')">{{ name }}</button>
+<button @click="buttonClick">{{ name }}</button>
+</template>
+```
