@@ -1,6 +1,6 @@
 <script setup lang="js">
 import todos from '@/assets/todos.js'
-import Button from '@/components/Button.vue';
+import Button from '@/components/DesignedButton.vue';
 import TodoList from '@/components/todo/TodoList.vue'
 </script>
 
