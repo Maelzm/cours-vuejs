@@ -11,7 +11,6 @@ button {
   width: fit-content;
   height: fit-content;
 
-  margin-top: 25px;
   padding: 7px;
 
   font-size: 14px;

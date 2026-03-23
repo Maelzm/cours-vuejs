@@ -1,14 +1,16 @@
 <script setup lang="js">
 import todos from '@/assets/todos.js'
 import Button from '@/components/DesignedButton.vue';
-import TodoList from '@/components/todo/TodoList.vue'
+import TodoCreation from '@/components/todo/TodoCreation.vue'
+import TodoList from '@/components/todo/TodoList.vue';
+
 </script>
 
 <template>
   <div class="list-view">
     <h2>List</h2>
     <TodoList :todos="todos" />
-    <Button>Créer</Button>
+    <TodoCreation/>
   </div>
 </template>
 

@@ -1,16 +1,14 @@
 # TD 3 - Vue-router
 
-## 1. CreateView - bases
+## 1. Créer la liste
 
-1. Le composant CreateView est prêt à être utilisé dans le dossier view.  
-Mapper ce composant dans le router pour qu'il soit accessible sous le chemin `/create`.
+1. Dans TodoItem, afficher le champs description de la todo reçue
+2. Stocker la liste todos.json dans une ref de ListView appelée todos
+3. Dans TodoList, utiliser le composant TodoItem pour afficher la liste des tâches
 
-2. Ajouter l'entrée `Créer` dans le menu en haut du site.
+## 2. Ajouter des éléments
 
-## 2. Bouton créer
-
-Modifier le bouton "Créer" pour qu'à son appuie, l'utilisateur soit envoyé vers `/create`.
-
-## 3. Retour arrière
-
-Ajouter un bouton `Annuler` dans la page de création. A son appui, ce bouton ramène l'utilisateur sur la page précédente.
+1. Créer les refs title, description, status et tags avec leur valeur par défaut
+2. Lier les refs nouvellement créées aux inputs correspondant
+3. Emettre l'event creation quand le formulaire est validé
+4. Dans ListView, gérer l'event creation de TodoCreation pour ajouter la tache à la ref todos.
